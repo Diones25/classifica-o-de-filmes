@@ -1,1 +1,1 @@
-Classificação de filmes com javscript puro.
+Classificação de filmes com javascript puro.
