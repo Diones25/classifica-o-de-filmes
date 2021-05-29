@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <h1>Classificação de Filmes</h1>
+        <div id="content">         
+            <div style="width: 400px;">
+                <label id="name" for="nome">Nome do usuário:</label>
+                <input type="text" name="nome" id="nome" class="form">
+    
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" id="idade" class="form">
+    
+                <label>Categoria:</label>
+                <div>
+                    <input type="radio" name="categoria" id="acao" value="Ação" checked>
+                    <label for="acao">
+                        Ação
+                    </label>
+                </div>
+                <div>
+                    <input type="radio" name="categoria" id="drama" value="Drama">
+                    <label for="drama">
+                      Drama
+                    </label>
+                </div>
+                <div>
+                    <input type="radio" name="categoria" id="comedia" value="Comédia">
+                    <label for="comedia">
+                      Comédia
+                    </label>
+                </div>
+                <div>
+                    <input type="radio" name="categoria" id="terror" value="Terror">
+                    <label for="terror">
+                      Terror
+                    </label>
+                </div>
+                <div>
+                    <input type="radio" name="categoria" id="romance" value="Romance">
+                    <label for="romance">
+                      Romance
+                    </label>
+                </div>
+    
+                <div style="display: flex; justify-content: center; margin-top: 10px;">
+                    <button type="submit" class="btn btn-success" onclick="pegarFilmes()">Pesquisar</button>
+                </div>
+            </div>
+        </div>
+        <h1>Rodapé</h1>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
